@@ -16,6 +16,7 @@
     font-size:40px;
     margin-left:600px;
     color:aqua;
+    margin-top: 10px;
 }
 #main{
     display:grid;
@@ -44,4 +45,16 @@ img{
     margin-top: 10px;
     border-radius: 20px;
     outline:none;
+    border:none;
+    font-size:20px;
+    
+}
+.search-button{
+    width:100px;
+    height:40px;
+    border-radius:10px;
+    outline:none;
+    border:none;
+    font-size:20px;
+    background-color:aqua;
 }

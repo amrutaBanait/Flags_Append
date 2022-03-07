@@ -15,7 +15,7 @@ function SearchCount(){
     })
 
     try{
-        if(data[0].id ==null){
+        if(data[0].id == null){
 
         }else{
             showcountry(data)
@@ -26,7 +26,7 @@ function SearchCount(){
 }
 
 async function dis(){
-    let data = await fetch ("https://codejudge-question-artifacts-dev.s3.amazonaws.com/q-1709/data.json")
+    let data = await fetch ("https://api.imgur.com/3/gallery/top/?showViral=true&mature=true&album_previews=true")
 
     let codata = await data.json()
 
